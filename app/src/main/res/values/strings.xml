@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Si Kecil</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="navigation_view_item_1">Jadwal Imunisasi</string>
+    <string name="navigation_view_item_2">Makanan Anak Sesuai Umur</string>
+    <string name="navigation_view_item_3">Detail Vaksin</string>
+    <string name="navigation_view_item_4">Grafik KMS</string>
+    <string name="navigation_view_item_5">Puskesmas Terdekat</string>
+    <string name="navigation_view_item_6">Tentang Kami</string>
+    <string name="title_activity_main2">Beranda</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_anak">Data Anak</string>
+    <string name="title_activity_vaksin">Daftar Vaksin</string>
+    <string name="title_activity_makanan">Menu Makanan Anak</string>
+    <string name="title_activity_puskesmas">Daftar Puskesmas Kabupaten Sleman</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_tentang__kami">Tentang Kami</string>
+    <string name="title_activity_about">Tentang Kami</string>
+</resources>

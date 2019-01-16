@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.verdian.sikecil.Detail_Puskesmas_2">
+
+    <android.support.v7.widget.Toolbar
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/toolbar"
+
+        android:layout_height="?actionBarSize"
+
+        android:layout_width="match_parent"
+
+        android:background="?attr/colorPrimary"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/webView"
+        android:layout_gravity="bottom"
+        android:layout_below="@+id/toolbar" />
+
+</RelativeLayout>

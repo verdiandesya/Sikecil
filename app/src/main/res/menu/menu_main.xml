@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemLihat"
+        android:orderInCategory="100"
+        android:title="Lihat Daftar Antrian"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/itemAdd"
+        android:titleCondensed="Ambil Antrian"
+        android:title="Daftar"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/itemShowPeta"
+        android:titleCondensed="Lihat Peta"
+        android:title="Lihat Peta"
+        app:showAsAction="never"
+        />
+</menu>

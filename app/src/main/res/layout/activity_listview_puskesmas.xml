@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <!-- Name Label -->
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dip" />
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:padding="5dip">
+        </TextView>
+
+        <TextView
+            android:id="@+id/telp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:padding="5dip">
+        </TextView>
+
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="1sp">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
